@@ -23,8 +23,12 @@ future_choice = {
 }
 user_input = input("お前の未来を選べ！(1,2,3):")
 
-selected_future = future_choice.get(user_input)
-
-result = selected_future()
-
-print(result)
+while True:
+    if selected_future = f:
+        selected_future = future_choice.get(user_input)
+        result = selected_future()
+        print(result)
+        break
+    
+    except ValueError:
+        print("1,2,3から選べ！テキサス魂を見せろ！")
