@@ -23,8 +23,6 @@ future_choice = {
 }
 user_input = input("お前の未来を選べ！(1,2,3):")
 
-selecetd_future = future_choice.get(user_input)
+result = future_choice.get(user_input)
 
-result = selecetd_future()
-
-print(result)
+print(result())
