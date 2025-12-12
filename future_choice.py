@@ -19,11 +19,12 @@ while True:
     if user_input in CHOICES:
         print(CHOICES[user_input])
         while True:
-            user_choide = input("qを押したら終了や！")
-            if user_choide == "q":
+            user_choice = input("qを押したら終了や！")
+            if user_choice == "q":
                 sys.exit(0)
 
             else:
+                print("qを押すんや！")
                 continue
     else:
         print("1,2,3から選べ！テキサス魂を見せろ！")
